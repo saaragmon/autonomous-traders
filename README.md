@@ -2,9 +2,6 @@
 
 Four named traders (Warren, George, Ray, Cathie) plus a researcher agent. They use MCP servers for accounts, push notifications, market data, web search, fetch, and memory. A FastAPI backend and a Vite dashboard show portfolios and live traces.
 
-Built on [Ed Donner’s Agents course](https://github.com/ed-donner/agents) Week 6, with MCP fixes so Massive/Tavily actually start, and local market data that uses **previous close** on a free Massive key.
-
-**Not financial advice. Do not trade real money with this.**
 
 ## Setup
 
