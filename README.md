@@ -2,10 +2,6 @@
 
 Four named traders (Warren, George, Ray, Cathie) plus a nested **researcher** agent. They use **MCP** servers for accounts, push notifications, market data, web search, fetch, and memory. A FastAPI backend and a Vite dashboard show portfolios and live traces.
 
-Built on [Ed Donner’s Agents course](https://github.com/ed-donner/agents) Week 6. Local market data uses **previous close** on a free Massive key (last-trade is paid). MCP servers merge the full process `PATH` so `uv` / `npx` actually start.
-
-**Not financial advice. Do not trade real money with this.**
-
 ## What I tried to learn
 
 I used this project to practice **agentic systems that act through tools**, not a single chat completion.
